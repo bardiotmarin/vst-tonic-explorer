@@ -13,40 +13,38 @@ L'interface graphique (UI) plonge l'utilisateur dans un environnement sous-marin
 - **Effets visuels** : Particules lumineuses simulant des poissons des abysses (Neon Glow Fish).
 - **Scanlines** : Lignes horizontales subtiles pour un rendu cyberpunk/synthwave.
 
-## 🔥 NOUVEAU : Massive Genre Engine
-Le plugin intègre maintenant une bibliothèque de presets spécialisés pour les producteurs de musique électronique moderne :
+## 🔥 MASSIVE GENRE ENGINE V2
+La bibliothèque de presets a été considérablement enrichie pour couvrir les sous-genres spécifiques :
 
-### 🏭 Techno (Berlin Rumble)
-- **Presets** : "Berlin Warehouse", "Hypnotic Loop"
-- **Tech** : Générateur de Sub-Rumble avec Reverb filtrée
-- **Scale** : Phrygian mode par défaut pour cette touche sombre
+### 🏭 Techno (Warehouse & Peak Time)
+- **Berlin Warehouse** : Rumble profond et Reverb filtrée.
+- **Peak Time Matrix** : Lignes Acid 303 agressives (Style Charlotte de Witte).
+- **Echo Chord Space** : Accords Dub Techno noyés dans le delay (Style Basic Channel).
 
-### 🏠 House / Classic
-- **Presets** : "NY Garage Stabs"
-- **Tech** : Accords Mineur 7th et 9th automatiques
-- **Rhythm** : Swing classique 1/16th
+### 🏠 House (Classic & French Touch)
+- **NY Garage Stabs** : L'orgue M1 classique des années 90.
+- **Filter Disco Loop** : La touche French Touch avec compression et phaser (Style Daft Punk).
+- **Ibiza 90s Piano** : Le piano brillant pour les hymnes d'été.
 
-### 🌴 Afro House
-- **Presets** : "Savanna Poly"
-- **Tech** : Polyrythmies 3-3-2 et basses "Log Drum"
-- **Scale** : Dorian / Minor 6th pour la profondeur
+### 🌴 Afro House (Tribal & Deep)
+- **Savanna Poly** : Log Drums et polyrythmies 3-3-2.
+- **Kloudy Sunset** : Vibe "Keinemusik" avec des pads aériens et percussions fines.
+- **Ancestral Drum** : Focus sur les triplés et le groove tribal.
 
-### 🌌 Melodic House (Afterlife Style)
-- **Presets** : "Ethereal Arp"
-- **Tech** : Arpégiateurs fluides et nappes (Pads) évolutives
-- **Vibe** : Émotionnel et planant
+### 🌌 Melodic House (Ethereal & Bodzin)
+- **Ethereal Arp** : Arpégiateurs émotionnels style Afterlife.
+- **Moogish Glide** : Basses avec glide et automation de filtre (Style Stephan Bodzin).
+- **Deadmau5 Chord** : Plucks progressifs avec ouverture de filtre.
 
-### 🔊 Bass House
-- **Presets** : "UK Bass Wobble"
-- **Tech** : FM Metallic Basses et modulation agressive
-- **Intervals** : Tritone tension (Diabolus in musica)
+### 🔊 Bass House (UK & G-House)
+- **UK Bass Wobble** : LFOs sales et modulation FM.
+- **Gangsta Low** : Sub-bass pure et groove G-House.
+- **Speed Warper** : Basses resamplées style Speed Garage / 2-Step.
 
 ## 🚀 Formats Supportés
-Grâce au framework JUCE, ce code peut être exporté dans les formats suivants (selon votre configuration) :
 - **VST3** (Standard actuel)
-- **Audio Unit (AU)** (Pour Logic Pro / Mac)
-- **Standalone** (Application autonome)
-- *VST2 (Legacy) : Possible si vous possédez l'ancien SDK Steinberg.*
+- **Audio Unit (AU)** (Logic Pro)
+- **Standalone**
 
 ## 🛠️ Installation & Build
 Ce projet nécessite [JUCE](https://juce.com/).
